@@ -1,5 +1,12 @@
+import UserResult from "../users/UserResult"
+
 function Home() {
-  return <div>Home</div>
+  return (
+    <>
+      {/* serach comoponent  */}
+      <UserResult />
+    </>
+  )
 }
 
 export default Home
