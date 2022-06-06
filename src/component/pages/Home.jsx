@@ -1,9 +1,10 @@
 import UserResult from "../users/UserResult"
+import UserSearch from "../users/UserSearch"
 
 function Home() {
   return (
     <>
-      {/* serach comoponent  */}
+      <UserSearch />
       <UserResult />
     </>
   )
